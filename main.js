@@ -5,7 +5,7 @@ const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 const resetButton = document.getElementById('reset-button');
 
-const API_KEY="AIzaSyBiyUAOAx7yjntnDulDyiikh0l3sOMZcfo"; // get your api key from https://aistudio.google.com/apikey
+const API_KEY="Your_API_KEY"; // get your api key from https://aistudio.google.com/apikey
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
